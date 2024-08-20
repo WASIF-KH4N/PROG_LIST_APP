@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        floatingActionButtonTheme: FloatingActionButtonThemeData(backgroundColor: Colors.green),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(backgroundColor: Colors.blue),
       ),
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),

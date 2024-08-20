@@ -116,7 +116,7 @@ class MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FloatingActionButton(
                   onPressed: () {

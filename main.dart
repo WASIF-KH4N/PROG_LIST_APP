@@ -8,6 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        floatingActionButtonTheme: FloatingActionButtonThemeData(backgroundColor: Colors.green),
+      ),
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
@@ -110,7 +113,8 @@ class MyHomePageState extends State<MyHomePage> {
                 ),
                   ),
                 style: TextStyle(color: Colors.blue), // Change text input color
-              ),),
+              ),
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
